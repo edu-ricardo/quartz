@@ -15,7 +15,7 @@ const config: QuartzConfig = {
     analytics: {
       provider: "plausible",
     },
-    locale: "en-US",
+    locale: "pt-BR",
     baseUrl: "https://edu-ricardo.github.io/wiki-rpg/",
     ignorePatterns: ["private", "templates", ".obsidian", "__MACOSX","Lazy GM Campaign Template", "RPG Resources"],
     defaultDateType: "modified",
