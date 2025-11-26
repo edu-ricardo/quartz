@@ -1,0 +1,25 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "Build Quartz Site",
+			"command": "npx quartz build --directory=../obsidian-palandor",
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			},
+			"problemMatcher": []
+		},
+		{
+			"type": "shell",
+			"label": "Serve Quartz Site",
+			"command": "npx quartz build --directory=../obsidian-palandor --serve",
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			},
+			"problemMatcher": []
+		}
+	]
+}
